@@ -30,14 +30,14 @@ bundle install
 
 ### Unidirectional Palette
 
-A unidirectional palette is a a palette that goes from a start color (usually white) to a goal color. See examples of unidirectional palettes below:
+A unidirectional palette is a a palette that goes from a start color to an end color. The colors in between are linearly interpolated between both start and end colors. See examples of unidirectional palettes below:
 
 ![alt tag](https://raw.githubusercontent.com/hsgubert/color_palette/master/images/example1.png)
 ![alt tag](https://raw.githubusercontent.com/hsgubert/color_palette/master/images/example2.png)
 ![alt tag](https://raw.githubusercontent.com/hsgubert/color_palette/master/images/example3.png)
 ![alt tag](https://raw.githubusercontent.com/hsgubert/color_palette/master/images/example4.png)
 
-Here is how to create palettes alike using the color_palette gem:
+Here is how to create palettes like these using the color_palette gem:
 
 ```ruby
 # ColorPalette.unidirectional(end_color, palette_size, start_color = white)
