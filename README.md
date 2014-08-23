@@ -5,6 +5,8 @@ Color Palette
 
 **Making life of a programmer-designer easier.**
 
+![alt tag](https://raw.githubusercontent.com/hsgubert/color_palette/master/palette_image.jpeg)
+
 Simple gem to build palettes (sequence of colors) of various types based on one or more reference colors.This gem aims to be as simple as possible helping you to create palettes dynamically. No more hard-coding a lot of colors in your ruby code!
 
 # Requirements
